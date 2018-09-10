@@ -18,6 +18,12 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="class1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Jiali_Chen_CSC211_Lab1.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{A2E85FF1-CE47-4946-92E1-FDFE62BA593E}</ProjectGuid>
@@ -114,12 +120,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <Text Include="..\class1.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\Jiali_Chen_CSC211_Lab1.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
