@@ -30,7 +30,7 @@ int main() {
 	int i = 0;
 
 	//Open the class data .txt file
-	infile.open("C:\\Users\\jiali.chen\\Desktop\\class1.txt");
+	infile.open("class1.txt");
 
 	//Check to see if the file has opened properly
 	if (infile.fail()) {
